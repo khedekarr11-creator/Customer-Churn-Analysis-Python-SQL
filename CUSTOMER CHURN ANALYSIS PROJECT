@@ -1,0 +1,76 @@
+Project Overview
+
+This project focuses on analyzing customer churn behavior using Python, SQL, and data visualization techniques. The objective was to identify major factors contributing to customer churn and provide actionable insights to improve customer retention strategies.
+
+The project includes:
+
+Data Cleaning & Transformation using Python (Pandas)
+SQL-based churn analysis
+Exploratory Data Analysis (EDA)
+Data Visualization using Matplotlib
+Business Insights & Recommendations
+Project Architecture
+Customer-Churn-Analysis/
+│
+├── Dataset/
+│   └── customer_churn.csv
+│
+├── SQL/
+│   ├── churn_analysis_queries.sql
+│   └── database_schema.sql
+│
+├── Python/
+│   ├── churn_analysis.ipynb
+│   └── churn_analysis.py
+│
+├── Images/
+│   ├── churn_distribution.png
+│   ├── contract_type_analysis.png
+│   ├── monthly_charges_analysis.png
+│   └── retention_strategy.png
+│
+├── README.md
+└── requirements.txt
+Problem Statement
+
+Customer churn is one of the biggest challenges for subscription-based businesses. This project aims to analyze customer behavior patterns and identify the key factors influencing customer churn.
+
+Technologies Used
+Technology	Purpose
+Python	Data cleaning & analysis
+Pandas	Data transformation
+SQL	Churn pattern analysis
+Matplotlib	Data visualization
+Jupyter Notebook	Interactive analysis
+GitHub	Project hosting
+Dataset Information
+Features Used
+Column Name	Description
+CustomerID	Unique customer ID
+Gender	Male/Female
+SeniorCitizen	Senior citizen status
+Partner	Partner status
+Tenure	Customer subscription duration
+Contract	Contract type
+MonthlyCharges	Monthly bill amount
+TotalCharges	Total customer charges
+Churn	Customer churn status
+
+Key Insights
+Major Findings
+Customers with month-to-month contracts showed the highest churn rate.
+Higher monthly charges increased the probability of churn.
+Long-term contract customers had better retention.
+Customers using fiber optic internet services had comparatively higher churn percentages.
+Business Recommendations
+Retention Strategies
+Offer discounts for long-term contracts.
+Introduce loyalty programs for high-risk customers.
+Provide personalized customer support.
+Monitor customers with high monthly charges.
+Improve service quality for internet subscribers.
+requirements.txt
+pandas
+numpy
+matplotlib
+jupyter
