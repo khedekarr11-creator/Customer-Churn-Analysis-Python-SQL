@@ -26,6 +26,5 @@ This project analyzes customer churn behavior using Python, SQL, and data visual
 - High monthly charges contributed significantly to churn.
 - Long-term contracts improved customer retention.
 
-## Author
-
-Your Name
+#Author
+Riya Sandip Khedekar
